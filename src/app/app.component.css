@@ -1,0 +1,24 @@
+*{
+  padding: 10px;
+  box-sizing: border-box;
+}
+section{
+  width: 500px;
+  height: 300px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 30px lightgray;
+  margin: 40px auto;
+}
+input{border: none;}
+.pending{
+  color: gray;
+}
+.correct{
+  color: green;
+  font-weight: bold;
+}
+.incorrect{
+  color: red;
+  font-weight: bold;
+}
